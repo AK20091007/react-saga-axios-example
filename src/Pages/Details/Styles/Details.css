@@ -1,0 +1,21 @@
+.heading {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+table.deatilsTable {
+    width: 100% !important;
+    margin-top: 20px !important;
+    padding-left: 30%;
+    @media (max-width: 500px){
+        padding-left: 0%;
+    }
+}
+tr{
+    text-align: left;
+}
